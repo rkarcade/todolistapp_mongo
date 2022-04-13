@@ -8,7 +8,11 @@ Create a new database under a cluster in MongoDB Atlas called "todolistDB" <br/>
 Select 'connect your application' option and copy the SRV command line.
 
 
-**Ensure you app.js contains the following SRV command that looks something like this**
-mongoose.connect("mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_PATHWAY>.mongodb.net/todolistDB",{useNewUrlParser: true, useUnifiedTopology: true}); <br/>
+**Ensure you app.js contains the following SRV command that looks something like this***
+"mongoose.connect("mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_PATHWAY>.mongodb.net/todolistDB",{useNewUrlParser: true, useUnifiedTopology: true});" <br/>
 
-**Testing** 
+
+***Result***
+ ![Alt text](https://raw.githubusercontent.com/rkarcade/todolistapp_mongo/main/public/mongodb_result.PNG)
+  
+
