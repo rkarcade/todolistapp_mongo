@@ -1,4 +1,4 @@
-# todolistapp_mongo
+# To Do List with MongoDB database captured
 A todo list app that captures the input and actions which then populated into MongoDB database. 
 
 
